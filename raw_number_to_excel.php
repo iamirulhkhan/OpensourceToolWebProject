@@ -5,7 +5,7 @@ $db = ''; // Update to your database name
 $user = ''; // Update to your database username
 $pass = '8H'; // Update to your database password
 
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = new mysqli($host, $user, $pass, $db); 
 if ($conn->connect_error) {
     die('Database connection failed: ' . $conn->connect_error);
 }
